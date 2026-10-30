@@ -1,0 +1,25 @@
+@media screen and (min-width: 768px){
+    #nav-buttom {
+        display: none;
+    }
+    
+    /* Header */
+    header {
+        grid-template-columns: 24px auto 1fr;
+    }
+
+    /* NAVIGATION */
+    .navigation {
+        display: block;
+    }
+
+    .navigation ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .navigation li a {
+        padding: 0.5rem 1rem;
+    }
+
+}

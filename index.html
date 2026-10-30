@@ -3,11 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="styles/main.css">
+    <title>WDD 231 - Prácticas de Aprendizaje</title>
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/app.js defer"></script>
 </head>
 <body>
-    <h1>WDD231 - Oscar </h1>
+    <header>
+        <img src="images/edificio.svg" alt="Site Logo" width="24" height="24">
+        <spam>Oscar Fonseca</spam>
+        <button id="nav-buttom" class="hamburguer" aria-label="Alternar navegacion" aria-expanded="false"></button>
+    </header>
+
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a href="#" aria-current="page">Home</a></li>
+            <li><a href="#"Chamber></a></li>
+            <li><a href="#"Final></a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+    </main>
+
+    <footer>
+        <div class="social-icons">
+            <a href="https://github.com/ofonsecam" target="_blank" rel="noopener noreferrer">
+                <img src="images/github.svg" alt="Perfil de Guthub" width="32" height="32">
+            </a>
+            <a href="https://www.linkedin.com/in/oscar-e-fonseca-m/" target="_blank" rel="noopener noreferrer">
+                <img src="images/linkedin.svg" alt="Perfil de linkedin" width="32" height="32">
+            </a>
+        </div>
+
+        <p>&copy; <span id="currentyear"></span>| Oscar Eduardo Fonseca Moreno | Colombia </p>
+        <p id="lastModified"></p>
+    </footer>
+
 </body>
 </html>

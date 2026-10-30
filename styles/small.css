@@ -1,0 +1,84 @@
+/***************Header****************/
+header {
+    display: grid;
+    grid-template-columns: 24px 1fr 44px;
+    padding: 10px;
+    align-items: center;
+    border-bottom: #333;
+    color: white;
+}
+
+/***************for phone****************/
+
+#nav-buttom {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    min-width: 44px;
+    min-height: 44px;
+}
+
+/***************Hamburguer ****************/
+.hamburger::before {
+  content: "\2630"; 
+}
+
+.hamburger.show::before {
+  content: "\0007"; 
+}
+
+/***************Navigation ****************/
+
+.navigation {
+    display: none;
+    background-color: #444;
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li a {
+    display: block;
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+    min-height: 44px;
+}
+
+.navigation li.current {
+    background-color: #222;
+    font-weight: bold;
+}
+
+/***************Footer ****************/
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.social-icons a {
+    display:  flex;
+    align-items:  center;
+    justify-content: center;
+    min-width: 44px;
+    min-height: 44px;
+}
