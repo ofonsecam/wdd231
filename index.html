@@ -4,35 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 231 - Prácticas de Aprendizaje</title>
+    <meta name="description" content="Página de inicio del curso WDD 231: Web Frontend Development I, desarrollada por Oscar Fonseca">
+    <meta name="author" content="Oscar Fonseca">
 
+    <!--- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
-    <script src="scripts/app.js defer"></script>
+
+    <!-- Scripts -->
+    <script src="scripts/app.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+
 </head>
 <body>
     <header>
         <img src="images/edificio.svg" alt="Site Logo" width="24" height="24">
-        <spam>Oscar Fonseca</spam>
-        <button id="nav-buttom" class="hamburguer" aria-label="Alternar navegacion" aria-expanded="false"></button>
+        <span>Oscar Fonseca</span>
+        <button id="nav-button" class="hamburger" aria-label="Alternar navegacion" aria-expanded="false"></button>
     </header>
 
     <nav id="nav-bar" class="navigation">
         <ul>
             <li class="current"><a href="#" aria-current="page">Home</a></li>
-            <li><a href="#"Chamber></a></li>
-            <li><a href="#"Final></a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="final/index.html">Final</a></li>
         </ul>
     </nav>
 
     <main>
+        <h1>Home</h1>
+
+        <!-- Section 1: Curs information -->
+         <section class="card">
+            <h2>Course Work</h2>
+            <p>Welcome to Development Portal of WDD 231. Here you will see all my activities of learning, proyects of certification and frontend arquitecture</p>
+         </section>
+
+        <!-- Section 2: Location  -->
+        <section class="card">
+            <h2>Colombia</h2>
+            <p>Espace dedicate to local context, resurces of comunited and information of sopport.</p>
+        </section>
+
+        <!-- Section 3: Certificade  -->
+        <section class="card certificate-section">
+            <h2>Web and Computer Programming Certificate</h2>
+
+        <!-- Filter Interaction -->
+        <div class="filter-buttons">
+            <button id="all-courses" class="filter-btn active">All</button>
+            <button id="cse-courses" class="filter-btn">CSE</button>
+            <button id="wdd-courses" class="filter-btn">WDD</button>
+        </div>
+
+        <!-- JS  -->
+        <div id="course-cards" class="course-grid"></div>
+
+        <!-- Total of credits -->
+        <p class="credit-total">Total de créditos requeridos: <strong id="total-credits">0</strong></p>
+        </section>
 
     </main>
 
     <footer>
         <div class="social-icons">
             <a href="https://github.com/ofonsecam" target="_blank" rel="noopener noreferrer">
-                <img src="images/github.svg" alt="Perfil de Guthub" width="32" height="32">
+                <img src="images/github.svg" alt="Perfil de Github" width="32" height="32">
             </a>
             <a href="https://www.linkedin.com/in/oscar-e-fonseca-m/" target="_blank" rel="noopener noreferrer">
                 <img src="images/linkedin.svg" alt="Perfil de linkedin" width="32" height="32">

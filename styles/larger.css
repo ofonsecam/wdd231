@@ -1,5 +1,5 @@
 @media screen and (min-width: 768px){
-    #nav-buttom {
+    #nav-button {
         display: none;
     }
     
@@ -11,15 +11,36 @@
     /* NAVIGATION */
     .navigation {
         display: block;
+        background-color: var(--primary-color)
     }
 
     .navigation ul {
         display: flex;
         justify-content: flex-end;
+        max-width: 1200px;
+        margin: 0 auto;
     }
 
-    .navigation li a {
-        padding: 0.5rem 1rem;
+    .navigation li.current {
+        border-left: none;
+        border-bottom: 4px solid var(--accent-color);
     }
 
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 1.5rem;
+    }
+
+    main h1 {
+        grid-column: 1 / -1;
+    }
+
+    .certificate-section {
+        grid-column: 1 / -1;
+    }
+
+    .course-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
 }
