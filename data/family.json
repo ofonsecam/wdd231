@@ -1,0 +1,24 @@
+{
+    "familyName:": "Fonseca",
+    "moveInDate": "2024-10-15",
+    "numberOfPeople": 3,
+    "visitedByBishopric": true,
+    "familyMembers": [
+        {
+            "name": "Oscar Fonseca",
+            "gender": "Male",
+            "birthdate": "1999-08-29"
+        },
+        {
+            "name": "Andrea Amaya",
+            "gender": "Female",
+            "birthdate": "1998-04-20"
+        },
+        {
+            "name": "Martin Fonseca",
+            "gender": "Male",
+            "birthdate": "2026-08-12"
+        }
+    ] 
+
+}
