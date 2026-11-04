@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diretorio Comercial | Camara de Comercio de Funza</title>
+    <meta name="descrtiption" content="Directorio empresarial de la Cámara de Comercio de Funza. Consulta empresas locales, comercio, logística y servicios en Sabana Occidente.">
+    <meta name="author" content="Oscar Fonseca">
+
+    <!-- favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- open graph --> 
+    <meta property="og:title" content="Directorio Comercial | Cámara de Comercio de Funza">
+    <meta property="og:description" content="Directorio oficial de afiliados comerciales, industriales y logísticos de Funza, Cundinamarca.">
+    <meta property="og:image" content="https://tu-usuario.github.io/wdd231/chamber/images/og-image.jpg">
+    <meta property="og:url" content="https://tu-usuario.github.io/wdd231/chamber/directory.html">
+    <meta property="og:type" content="website">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    
+    <!-- script -->
+    <script src="scripts/directory.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-box">
+                <img src="images/favicon.ico" alt="Escudo o Logo de la Cámara de Comercio de Funza" width="44" height="44">
+                <span class="site-title">Camara de Funza</span>
+            </div>
+            <button id="hamburger-btn" aria-label="Abrir menude navegacion">☰</button>
+        </div>
+        <nav id="primary-nav">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="directory.html" class="active">Directorio</a></li>
+                <li><a href="join.html">Afiliacion</a></li>
+                <li><a href="discover.html">Descubre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="directory-header">
+            <h1>Directorio de Empresasa Afiliadas</h1>
+            <div class="view-controls">
+                <button id="grid-view-btn" class="active" aria-label="Visualizar en cuadricula">⊞ Cuadricula</button>
+                <button id="list-view-btn" aria-label="Visualizar en Lista">≡ Lista</button>
+            </div>
+        </div>
+
+        <div id="members-container" class="grid"></div>
+    </main>
+
+    <footer>
+        <div class="footer-info">
+            <h3>Cámara de Comercio de Funza</h3>
+            <p>Parque Principal, Carrera 14 # 13-08</p>
+            <p>Funza, Cundinamarca, Colombia</p>
+            <p>info@camarafunza.org | +57 (601) 826-0000</p>
+        </div>
+        <div class="footer-dev">
+            <p>WDD 231 Class Project | Oscar Fonseca</p>
+            <p>&copy; <span id="current-year"></span> Cámara de Comercio de Funza</p>
+            <p>Última modificación: <span id="last-modified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,67 @@
+{
+    "members": [
+        {
+            "name": "Logistica Y Carga San Jerónimo",
+            "address": "Km 2 Vía Funza - Siberoa, Parque Industrial San Carlos",
+            "phone": "+57 (601) 826-4500",
+            "website": "https://www.logisticasanjeronimo.com",
+            "image": "logistica-sanjeronimo.webp",
+            "membershiplever": "3",
+            "category": "Transporte y Almacenamiento"
+        },
+        {
+            "name": "Agroindustria Las Flores de la Sabana",
+            "address": "Caller 15 # 3-45, Funza Centro",
+            "phone": "+57 (601) 826-1123",
+            "website": "https://www.floresdelasabana.com.co",
+            "image": "flores-sabana.webp",
+            "membershiplever": "3",
+            "category": "Exportación Agrícola"
+        },
+        {
+            "name": "Panadería Y Pasteleria Croiss Gourmet",
+            "address": "Carrera 9 # 12-18, Barrio Porvenir",
+            "phone": "+57 (601) 825-9080",
+            "website": "https://www.croissgourmet.co",
+            "image": "croiss-gourmet.webp",
+            "membershiplever": "2",
+            "category": "Alimentos y Bebidas"
+        },
+        {
+            "name": "Metalmecánica & Diseños Funza S.A.S.",
+            "address": "Autopista Medellín Km 1.5, Zona Franca Metropolitana",
+            "phone": "57 (601) 826-7834",
+            "website": "https://www.metalmecanicafunza.com",
+            "image": "metalmecanica-funza.webp",
+            "membershiplever": "2",
+            "category": "Manufactura Industrial"
+        },
+        {
+            "name": "Supermercado & Granero Central",
+            "address": "Carrera 14 # 9-02, Plaza de Mercado",
+            "phone": "+57 (601) 825-3344",
+            "website": "https://www.granerocentralfunza.com",
+            "image": "granero-central.webp",
+            "membershiplever": "1",
+            "category": "Comercio Minorista"
+        },
+        {
+            "name": "Servicios Ambientales Sabana Limpia",
+            "address": "Diagonal 6 # 18-30, Parque Empresarial",
+            "phone": "+57 (601) 826-9911",
+            "website": "https://www.sabanalimpia.com",
+            "image": "sabana-limpia.webp",
+            "membershiplever": "1",
+            "category": "Gestión Ambiental y Reciclaje"
+        },
+        {
+            "name": "Tecnología & Redes Cundinamarca",
+            "address": "Calle 9 # 11-50, Oficina 204",
+            "phone": "+57 (601) 825-6677",
+            "website": "https://www.tecnoredescundinamarca.com",
+            "image": "tecnoredes.webp",
+            "membershiplever": "3",
+            "category": "Servicios de IT y Software"
+        }
+    ]
+}
