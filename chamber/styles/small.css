@@ -1,6 +1,6 @@
 :root {
     --primary-color: #1b365d;
-    --secondary-color: #0284c7;
+    --secondary-color: #016a9f;
     --accent-gold: #b45309;
     --accent-silver: #475569;
     --bg-color: #f8fafc;
@@ -203,7 +203,7 @@ main {
 }
 
 #members-container.list section img {
-  display: none !important; 
+  display: none; 
 }
 
 #members-container.list section h3 {
