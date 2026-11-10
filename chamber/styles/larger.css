@@ -28,7 +28,7 @@
     align-items: center;
   }
 
-  #members-container.list section h3 {
+  #members-container.list section h2 {
     flex: 2;
     text-align: left;
   }

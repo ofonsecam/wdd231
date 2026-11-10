@@ -155,7 +155,7 @@ main {
   background-color: #e2e8f0;
 }
 
-#members-container.grid section h3 {
+#members-container.grid section h2 {
   font-size: 1.15rem;
   color: var(--primary-color);
 }
@@ -206,7 +206,7 @@ main {
   display: none; 
 }
 
-#members-container.list section h3 {
+#members-container.list section h2 {
   font-size: 1.05rem;
   color: var(--primary-color);
 }

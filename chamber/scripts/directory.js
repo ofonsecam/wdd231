@@ -46,7 +46,7 @@ const displayMembers = (members) => {
   members.forEach((member) => {
     const card = document.createElement('section');
 
-    const name = document.createElement('h3');
+    const name = document.createElement('h2');
     name.textContent = member.name;
 
     const category = document.createElement('p');
@@ -71,6 +71,7 @@ const displayMembers = (members) => {
     website.setAttribute('target', '_blank');
     website.setAttribute('rel', 'noopener noreferrer');
     website.textContent = 'Visitar sitio web';
+    website.setAttribute('arial-label', 'Visitar el sitio web de ${member.name}');
 
     const membership = getMembershipDetails(member.membershipLevel);
     const badge = document.createElement('span');
