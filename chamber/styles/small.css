@@ -234,7 +234,7 @@ footer {
   margin-bottom: 0.4rem;
 }
 
-footer-dev p {
+.footer-info p {
   color: #cbd5e1;
   font-size: 0.85rem;
 }
