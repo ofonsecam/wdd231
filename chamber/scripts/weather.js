@@ -51,7 +51,7 @@ function displayForecast(data) {
 
     const date = new Date(day.dt * 1000);
 
-    const dayName = date.toLocaleDateString('es-ES', { weekday: 'short' });
+    const dayName = date.toLocaleDateString('en-US', { weekday: 'short' });
 
     const iconCode = day.weather[0].icon;
     const iconSrc = `https://openweathermap.org/img/wn/${iconCode}.png`;
@@ -79,7 +79,7 @@ async function fetchWeather() {
     displayCurrentWeather(data);
   } catch (error) {
     console.error('Error al cargar el clima actual:', error);
-    weatherDesc.textContent = 'No disponible';
+    weatherDesc.textContent = 'Unavailable';
   }
 }
 

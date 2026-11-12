@@ -46,7 +46,7 @@ function displaySpotlights(members) {
     card.classList.add('spotlight-card');
 
     const isGold = Number(member.membershiplevel) === 3;
-    const badgeLabel = isGold ? 'Membresía Oro' : 'Membresía Plata';
+    const badgeLabel = isGold ? 'Gold Membership' : 'Silver Membership';
     const badgeClass = isGold ? 'badge-gold' : 'badge-silver';
 
     card.innerHTML = `
