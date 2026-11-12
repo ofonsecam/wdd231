@@ -93,6 +93,68 @@ main {
   margin: 1.5rem auto;
 }
 
+/* Hero y Call to Action */
+.hero {
+  position: relative;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.cta-box {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  right: 1rem;
+  background-color: rgba(15, 23, 42, 0.85);
+  color: #ffffff;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+.cta-box h1 {
+  font-size: 1.25rem;
+  margin-bottom: 0.35rem;
+}
+
+.cta-box p {
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: var(--secondary-color);
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+.cta-button:hover {
+  background-color: var(--primary-color);
+}
+
+.events {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.events h2 {
+  color: var(--primary-color);
+  margin-bottom: 0.75rem;
+}
+
 .directory-header {
   text-align: center;
   margin-bottom: 1.5rem;

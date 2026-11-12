@@ -57,4 +57,16 @@
   .spotlights-grid {
     grid-template-columns: repeat(3, 1fr);
   }
+  
+  .cta-box {
+    max-width: 460px;
+    bottom: 2rem;
+    left: 2rem;
+    right: auto;
+    padding: 1.5rem;
+  }
+
+  .cta-box h1 {
+    font-size: 1.65rem;
+  }
 }
