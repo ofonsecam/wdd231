@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funza Chamber Home | Cámara de Comercio</title>
+    <meta name="description" content="Pagina de inicion empresarial de la Cámara de Comercio de Funza. Consulta empresas locales, comercio, logística y servicios en Sabana Occidente.">
+    <meta name="author" content="Oscar Fonseca">
+
+    <!-- favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- open graph --> 
+    <meta property="og:title" content="Pagina Inicio Directorio Comercial | Cámara de Comercio de Funza">
+    <meta property="og:description" content="Pagina Inicio Directorio oficial de afiliados comerciales, industriales y logísticos de Funza, Cundinamarca.">
+    <meta property="og:image" content="https://ofonsecam.github.io/wdd231/chamber/images/favicon.ico">
+    <meta property="og:url" content="https://ofonsecam.github.io/wdd231/chamber/index.html">
+    <meta property="og:type" content="website">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    
+    <!-- script -->
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/spotlights.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-box">
+                <img src="images/favicon.ico" alt="Escudo o Logo de la Cámara de Comercio de Funza" width="44" height="44">
+                <span class="site-title">Camara de Funza</span>
+            </div>
+            <button id="hamburger-btn" aria-label="Abrir menude navegacion">☰</button>
+        </div>
+        <nav id="primary-nav">
+            <ul>
+                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="directory.html">Directorio</a></li>
+                <li><a href="join.html">Afiliacion</a></li>
+                <li><a href="discover.html">Descubre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <picture>
+            <img src="images/hero-chamber.webp" alt="Vista panorámica de la zona comercial local" width="1200" height="600" fetchpriority="high">
+            </picture>
+            <div class="cta-box">
+            <h1>Impulsa tu Negocio Hoy</h1>
+            <p>Conectamos emprendedores, industria y servicios en la Sabana Occidente.</p>
+            <a href="join.html" class="cta-button">Únete a la Cámara</a>
+            </div>
+        </section>
+
+        <section class="events">
+            <h2>Próximos Eventos</h2>
+            <article>
+            <h3>Feria de Emprendimiento Local</h3>
+            <p>Acompáñanos este viernes en el auditorio municipal para conectar con inversionistas y mentores.</p>
+            </article>
+        </section>
+
+        <section class="weather-card">
+            <h2>Clima en Funza</h2>
+            
+            <div class="current-weather">
+                <figure>
+                <img id="weather-icon" src="images/weather-icon.png" alt="Icono del clima actual" width="64" height="64">
+                <figcaption id="weather-desc">Cargando condición...</figcaption>
+                </figure>
+                <p class="temp-display"><span id="current-temp">--</span>°C</p>
+            </div>
+
+            <hr>
+
+            <h3>Pronóstico Próximos 3 Días</h3>
+            <div id="forecast-cards" class="forecast-container">
+            </div>
+        </section>
+
+        <section class="spotlights-section">
+            <h2>Miembros Destacados</h2>
+            <div id="spotlight-container" class="spotlights-grid"></div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-info">
+            <h3>Cámara de Comercio de Funza</h3>
+            <p>Parque Principal, Carrera 14 # 13-08</p>
+            <p>Funza, Cundinamarca, Colombia</p>
+            <p>info@camarafunza.org | +57 (601) 826-0000</p>
+        </div>
+        <div class="footer-dev">
+            <p>WDD 231 Class Project | Oscar Fonseca</p>
+            <p>&copy; <span id="current-year"></span> Cámara de Comercio de Funza</p>
+            <p>Última modificación: <span id="last-modified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>

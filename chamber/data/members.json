@@ -6,7 +6,7 @@
             "phone": "+57 (601) 826-4500",
             "website": "https://www.logisticasanjeronimo.com",
             "image": "logistica-sanjeronimo.webp",
-            "membershiplever": "3",
+            "membershiplevel": "3",
             "category": "Transporte y Almacenamiento"
         },
         {
@@ -15,7 +15,7 @@
             "phone": "+57 (601) 826-1123",
             "website": "https://www.floresdelasabana.com.co",
             "image": "flores-sabana.webp",
-            "membershiplever": "3",
+            "membershiplevel": "3",
             "category": "Exportación Agrícola"
         },
         {
@@ -24,7 +24,7 @@
             "phone": "+57 (601) 825-9080",
             "website": "https://www.croissgourmet.co",
             "image": "croiss-gourmet.webp",
-            "membershiplever": "2",
+            "membershiplevel": "2",
             "category": "Alimentos y Bebidas"
         },
         {
@@ -33,7 +33,7 @@
             "phone": "57 (601) 826-7834",
             "website": "https://www.metalmecanicafunza.com",
             "image": "metalmecanica-funza.webp",
-            "membershiplever": "2",
+            "membershiplevel": "2",
             "category": "Manufactura Industrial"
         },
         {
@@ -42,7 +42,7 @@
             "phone": "+57 (601) 825-3344",
             "website": "https://www.granerocentralfunza.com",
             "image": "granero-central.webp",
-            "membershiplever": "1",
+            "membershiplevel": "1",
             "category": "Comercio Minorista"
         },
         {
@@ -51,7 +51,7 @@
             "phone": "+57 (601) 826-9911",
             "website": "https://www.sabanalimpia.com",
             "image": "sabana-limpia.webp",
-            "membershiplever": "1",
+            "membershiplevel": "1",
             "category": "Gestión Ambiental y Reciclaje"
         },
         {
@@ -60,7 +60,7 @@
             "phone": "+57 (601) 825-6677",
             "website": "https://www.tecnoredescundinamarca.com",
             "image": "tecnoredes.webp",
-            "membershiplever": "3",
+            "membershiplevel": "3",
             "category": "Servicios de IT y Software"
         }
     ]
