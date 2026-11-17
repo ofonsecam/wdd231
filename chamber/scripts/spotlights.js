@@ -58,8 +58,7 @@ function displaySpotlights(members) {
       <a href="${member.website}" target="_blank" rel="noopener noreferrer" aria-label="Visitar el sitio web de ${member.name}">Visitar sitio web</a>
     `;
 
+getSpotlights();
     spotlightContainer.appendChild(card);
   });
 }
-
-getSpotlights();
