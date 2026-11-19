@@ -409,3 +409,194 @@ footer {
 .spotlight-card a:hover {
   text-decoration: underline;
 }
+
+/* ================= JOIN PAGE ================= */
+.join-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin: 1.5rem 0;
+}
+
+.join-form {
+  background-color: var(--card-bg);
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  box-shadow: 0 2px 6px rgb(15 23 42 / 6%);
+}
+
+.join-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-weight: 600;
+  color: var(--text-color);
+  font-size: 0.95rem;
+}
+
+.join-form input[type="text"],
+.join-form input[type="email"],
+.join-form input[type="tel"],
+.join-form select,
+.join-form textarea {
+  padding: 0.7rem 0.85rem;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 1rem;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  min-height: 44px;
+}
+
+.join-form input:focus,
+.join-form select:focus,
+.join-form textarea:focus {
+  outline: 2px solid var(--secondary-color);
+  border-color: var(--secondary-color);
+  background-color: #ffffff;
+}
+
+.submit-btn {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0.85rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  min-height: 48px;
+  margin-top: 0.5rem;
+  transition: background-color 0.2s ease;
+}
+
+.submit-btn:hover {
+    background-color: var(--secondary-color);
+}
+
+.membership-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.membership-card h2 {
+  color: var(--primary-color);
+  margin: 0;
+}
+
+@keyframes cardEntrance {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.tier-card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-left: 6px solid var(--primary-color);
+  border-radius: 8px;
+  padding: 1.25rem;
+  box-shadow: 0 2px 6px rgb(15 23 42 / 6%);
+  opacity: 0;
+  animation: cardEntrance 0.6s ease-out forwards;
+}
+
+.card-np{ border-left-color: var(--secondary-color); animation-delay: 0.1s; }
+.card-bronze { border-left-color: #92400e; animation-delay: 0.25s; }
+.card-silver { border-left-color: var(--accent-silver); animation-delay: 0.4s; }
+.card-gold { border-left-color: var(--accent-gold); animation-delay: 0.55s; }
+
+.tier-card h3 {
+  margin-top: 0;
+  color: var(--primary-color);
+}
+
+.open-modal-btn {
+  background-color: var(--secondary-color);
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6rem 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  min-height: 44px;
+  margin-top: 0.5rem;
+}
+
+.open-modal-btn:hover {
+  background-color: var(--primary-color);
+}
+
+.tier-modal {
+  margin: auto;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1.75rem;
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  box-shadow: 0 10px 25px rgb(15 23 42 / 25%);
+  width: 90%;
+  max-width: 500px;
+}
+
+.tier-modal::backdrop {
+  background-color: rgb(15 23 42 / 60%);
+}
+
+.tier-modal h3 {
+  color: var(--primary-color);
+  margin-top: 0;
+  padding-right: 2.5rem;
+}
+
+.tier-modal ul {
+  padding-left: 1.25rem;
+  line-height: 1.6;
+}
+
+.close-modal {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: var(--bg-color);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  cursor: pointer;
+  min-width: 44px;
+  min-height: 44px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tier-card {
+    animation: none;
+    opacity: 1;
+  }
+}
+
+.confirmation-card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-top: 5px solid var(--secondary-color);
+  border-radius: 8px;
+  padding: 1.75rem;
+  margin: 1.5rem auto;
+  max-width: 650px;
+  box-shadow: 0 2px 6px rgb(15 23 42 / 6%);
+}
+
+#application-summary p {
+  padding: 0.65rem 0;
+  border-bottom: 1px solid var(--border-color);
+  margin: 0;
+}

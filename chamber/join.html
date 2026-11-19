@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funza Chamber of Commerce | Join</title>
+    <meta name="description" content="Welcome to the Funza Chamber of Commerce. Connecting local businesses, entrepreneurs, logistics, and industry across Sabana Occidente.">
+    <meta name="author" content="Oscar Fonseca">
+
+    <!-- favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- open graph --> 
+    <meta property="og:title" content="Join | Funza Chamber of Commerce - Sabana Occidente">
+    <meta property="og:description" content="Apply for membership at the Funza Chamber of Commerce. Choose from Non-Profit, Bronze, Silver, or Gold tiers to grow your business.">
+    <meta property="og:image" content="https://ofonsecam.github.io/wdd231/chamber/images/favicon.ico">
+    <meta property="og:url" content="https://ofonsecam.github.io/wdd231/chamber/join.html">
+    <meta property="og:type" content="website">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    
+    <!-- script -->
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/join.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-box">
+                <img src="images/favicon.ico" alt="Funza Chamber of Commerce Crest and Logo" width="44" height="44">
+                <span class="site-title">Funza Chamber of Commerce</span>
+            </div>
+            <button id="hamburger-btn" aria-label="Open navigation menu">☰</button>
+        </div>
+        <nav id="primary-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html" class="active" aria-current="page">Join</a></li>
+                <li><a href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Join the Funza Chamber of Commerce</h1>
+        
+        <div class="join-layout">
+            <form method="get" action="thankyou.html" class="join-form">
+                <label title="Enter your first name">
+                    First Name *
+                    <input type="text" name="first-name" required autocomplete="given-name" title="Applicant's first name">
+                </label>
+
+                <label title="Enter your last name">
+                    Last Name *
+                    <input type="text" name="last-name" required autocomplete="family-name" title="Applicant's last name">
+                </label>
+
+                <label title="Enter your title within your organization">
+                    Organization Title
+                    <input type="text" name="org-title" autocomplete="organization-title" pattern="[A-Za-z -]{7,}" title="Minimum 7 characters: letters, spaces, and hyphens only">
+                </label>
+
+                <label title="Enter a valid email address">
+                    Email Address *
+                    <input type="email" name="email" required autocomplete="email" placeholder="example@business.com" title="Applicant's email address">
+                </label>
+
+                <label title="Enter your mobile phone number">
+                    Mobile Phone Number *
+                    <input type="tel" name="phone" required autocomplete="tel" title="Applicant's mobile phone number">
+                </label>
+
+                <label title="Enter your business or organization name">
+                    Business / Organization Name *
+                    <input type="text" name="organization" required autocomplete="organization" title="Business or organization name">
+                </label>
+
+                <label title="Select a membership tier">
+                    Membership Level *
+                    <select name="membership" required title="Select your desired membership level" autocomplete="off">
+                        <option value="" disabled selected>Select a Membership Level...</option> 
+                        <option value="np">NP Membership (Non-Profit - No fee)</option> 
+                        <option value="bronze">Bronze Membership</option> 
+                        <option value="silver">Silver Membership</option> 
+                        <option value="gold">Gold Membership</option> 
+                    </select>
+                </label>
+
+                <label title="Describe your business or organization">
+                    Business / Organization Description 
+                    <textarea name="description" rows="4" title="Brief description of your business or organization" autocomplete="off"></textarea>
+                </label>
+
+                <input type="hidden" name="timestamp" id="timestamp">
+                <input type="submit" value="Apply for Membership" class="submit-btn">
+            </form>
+
+            <section class="membership-card" aria-label="Membership Levels">
+                <h2>Membership Levels</h2>
+
+                <div class="tier-card card-np">
+                    <h3>Non-Profit Membership</h3>
+                    <p>Ideal for registered non-profit organizations in Sabana Occidente.</p>
+                    <button type="button" class="open-modal-btn" data-modal="modal-np">Learn More</button>
+                </div>
+
+                <div class="tier-card card-bronze">
+                    <h3>Bronze Membership</h3>
+                    <p>Essential networking and directory visibility for growing businesses.</p>
+                    <button type="button" class="open-modal-btn" data-modal="modal-bronze">Learn More</button>
+                </div>
+
+                <div class="tier-card card-silver">
+                    <h3>Silver Membership</h3>
+                    <p>Expanded training, event discounts, and regional promotional reach.</p>
+                    <button type="button" class="open-modal-btn" data-modal="modal-silver">Learn More</button>
+                </div>
+                
+                <div class="tier-card card-gold">
+                    <h3>Gold Membership</h3>
+                    <p>Maximum brand exposure, home page spotlights, and VIP Chamber access.</p>
+                    <button type="button" class="open-modal-btn" data-modal="modal-gold">Learn More</button>
+                </div>
+            </section>
+        </div>
+
+        <dialog id="modal-np" class="tier-modal">
+            <button type="button" class="close-modal" aria-label="Close non-profit details">❌</button>
+            <h3>Non-Profit Membership Benefits</h3>
+            <p><strong>Annual Fee: </strong>Free ($0 COP)</p>
+            <ul>
+                <li>Standard listing in the Funza Chamber online directory.</li>
+                <li>Access to monthly community networking breakfast.</li>
+                <li>Eligibility to post community events on the local board.</li>
+            </ul>
+        </dialog>
+
+        <dialog id="modal-bronze" class="tier-modal">
+            <button type="button" class="close-modal" aria-label="Close bronze details">❌</button>
+            <h3>Bronze Membership Benefits</h3>
+            <p><strong>Annual Fee:</strong> $350,000 COP</p>
+            <ul>
+                <li>All Non-Profit tier benefits included.</li>
+                <li>10% discount on Chamber workshops and logistics seminars.</li>
+                <li>Social media welcome mention across Chamber channels.</li>
+            </ul>
+        </dialog>
+
+        <dialog id="modal-silver" class="tier-modal">
+            <button type="button" class="close-modal" aria-label="Close silver details">❌</button>
+            <h3>Silver Membership Benefits</h3>
+            <p><strong>Annual Fee:</strong> $750,000 COP</p>
+            <ul>
+                <li>All Bronze tier benefits included.</li>
+                <li>25% discount on trade shows, booth rentals, and executive training.</li>
+                <li>Quarterly feature in the Sabana Occidente business newsletter.</li>
+            </ul>
+        </dialog>
+
+        <dialog id="modal-gold" class="tier-modal">
+            <button type="button" class="close-modal" aria-label="Close gold details">❌</button>
+            <h3>Gold Membership Benefits</h3>
+            <p><strong>Annual Fee:</strong> $1,400,000 COP</p>
+            <ul>
+                <li>All Silver tier benefits included.</li>
+                <li>Rotating spotlights placement on the Chamber Home Page.</li>
+                <li>VIP invitations to regional government and industry roundtables.</li>
+                <li>50% discount on all Chamber events and sponsorship packages.</li>
+            </ul>
+        </dialog>
+
+    </main>
+
+    <footer>
+        <div class="footer-info">
+            <h3>Funza Chamber of Commerce</h3>
+            <p>Parque Principal, Carrera 14 # 13-08</p>
+            <p>Funza, Cundinamarca, Colombia</p>
+            <p>info@camarafunza.org | +57 (601) 826-0000</p>
+        </div>
+        <div class="footer-dev">
+            <p>WDD 231 Class Project | Oscar Fonseca</p>
+            <p>&copy; <span id="current-year"></span> Funza Chamber of Commerce</p>
+            <p>Last modified: <span id="last-modified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>

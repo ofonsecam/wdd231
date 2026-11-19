@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funza Chamber of Commerce | Application Received</title>
+    <meta name="description" content="Confirmation of your membership application to the Funza Chamber of Commerce.">
+    <meta name="author" content="Oscar Fonseca">
+
+    <!-- favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- open graph --> 
+    <meta property="og:title" content="Application Received | Funza Chamber of Commerce">
+    <meta property="og:description" content="Thank you for applying to join the Funza Chamber of Commerce.">
+    <meta property="og:image" content="https://ofonsecam.github.io/wdd231/chamber/images/favicon.ico">
+    <meta property="og:url" content="https://ofonsecam.github.io/wdd231/chamber/thankyou.html">
+    <meta property="og:type" content="website">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    
+    <!-- script -->
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/thankyou.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-box">
+                <img src="images/favicon.ico" alt="Funza Chamber of Commerce Crest and Logo" width="44" height="44">
+                <span class="site-title">Funza Chamber of Commerce</span>
+            </div>
+            <button id="hamburger-btn" aria-label="Open navigation menu">☰</button>
+        </div>
+        <nav id="primary-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html" class="active">Join</a></li>
+                <li><a href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Application Received</h1>
+        <section class="confirmation-card">
+            <h2>Thank You for Applying!</h2>
+            <p>We have received your membership request for the Funza Chamber of Commerce. Below is a summary of your submitted details:</p>
+            <div id="application-summary"></div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-info">
+            <h3>Funza Chamber of Commerce</h3>
+            <p>Parque Principal, Carrera 14 # 13-08</p>
+            <p>Funza, Cundinamarca, Colombia</p>
+            <p>info@camarafunza.org | +57 (601) 826-0000</p>
+        </div>
+        <div class="footer-dev">
+            <p>WDD 231 Class Project | Oscar Fonseca</p>
+            <p>&copy; <span id="current-year"></span> Funza Chamber of Commerce</p>
+            <p>Last modified: <span id="last-modified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>
