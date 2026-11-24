@@ -1,0 +1,168 @@
+:root {
+    --primary-color: #1B4332;
+    --accent-color: #9E2A2B;
+    --bg-color: #FAF7F2;
+    --surface-color: #FFFFFF;
+    --text-color: #1F2937;
+    --font-heading: 'Fraunces', Georgia, serif;
+    --font-body: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-body);
+    line-height: 1.6;
+}
+
+header, footer {
+    background-color: var(--primary-color);
+    color: var(--surface-color);
+    padding: 1.75rem 1.25rem;
+    text-align: center;
+}
+
+header h1 {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    margin-bottom: 0.4rem;
+}
+
+.subtitle {
+    font-size: 0.95rem;
+    opacity: 0.92;
+}
+
+main {
+    max-width: 960px;
+    margin: 2rem auto;
+    padding: 0 1.25rem;
+    display: grid;
+    gap: 1.75rem;
+}
+
+section {
+    background-color: var(--surface-color);
+    border-left: 5px solid var(--accent-color);
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 6px rgba(27, 67, 50, 0.08);
+}
+
+h2 {
+    font-family: var(--font-heading);
+    color: var(--primary-color);
+    font-size: 1.45rem;
+    margin-bottom: 0.85rem;
+    border-bottom: 1px solid rgba(27, 67, 50, 0.15);
+    padding-bottom: 0.35rem;
+}
+
+h3 {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  margin-bottom: 0.4rem;
+}
+
+p, ul {
+  margin-bottom: 0.75rem;
+}
+
+ul {
+  padding-left: 1.4rem;
+}
+
+li {
+  margin-bottom: 0.45rem;
+}
+
+code {
+  background-color: var(--bg-color);
+  border: 1px solid rgba(27, 67, 50, 0.2);
+  padding: 0.1rem 0.35rem;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.color-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.color-card {
+  padding: 1rem;
+  border-radius: 6px;
+  border: 1px solid var(--text-color);
+}
+
+.primary-swatch {
+  background-color: var(--primary-color);
+  color: var(--surface-color);
+}
+
+.accent-swatch {
+  background-color: var(--accent-color);
+  color: var(--surface-color);
+}
+
+.bg-swatch {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.text-swatch {
+  background-color: var(--text-color);
+  color: var(--surface-color);
+}
+
+.primary-swatch code,
+.accent-swatch code,
+.text-swatch code {
+  color: var(--text-color);
+}
+
+.typo-sample {
+  padding: 0.85rem;
+  background-color: var(--bg-color);
+  border-radius: 6px;
+  margin-bottom: 0.75rem;
+}
+
+.font-heading-demo {
+  font-family: var(--font-heading);
+  color: var(--primary-color);
+}
+
+.wireframe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+figure {
+  background-color: var(--bg-color);
+  padding: 1rem;
+  border-radius: 6px;
+  text-align: center;
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--text-color);
+  margin-bottom: 0.65rem;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  text-align: left;
+}

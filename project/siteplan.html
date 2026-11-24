@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Project Site Plan for Savor & Lean: High-Protein Whole Food & Smart Fat Loss Hub - WDD 231">
+    <meta name="author" content="Oscar Fonseca">
+    <title>Site Plan | Savor &amp; Lean</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/siteplan.css">
+</head>
+<body>
+    <header>
+        <h1>Savor &amp; Lean - Website Project Site Plan</h1>
+        <p class="subtitle">High-Protein Whole Food &amp; Smart Fat Loss Hub | WDD 231 Individual Project</p>
+    </header>
+
+    <main>
+        <section id="site-name">
+            <h2>1. Site Name</h2>
+            <p><strong>Select Name:</strong> Savor &amp; Lean</p>
+            <p><strong>Rationale:</strong>The name bridges two concepts often treated as opposites in diet culture: enjoying rich, satisfying flavors (<em>Savor</em>) and achieving sustainable fat loss and muscle retention (<em>Lean</em>). It immediately communicates a practical, non-restrictive culinary approach to nutrition.</p>
+            <p><strong>Optional Domain Availability:</strong> <code>savorandlean.org</code></p>
+        </section>
+
+        <section id="site-purpuse">
+            <h2>2. Site Porpuse</h2>
+            <p>Savor &amp; Lavor is a three-page informational and interactive web application designed to help busy individuals achieve sustainable fat loss without relying on bland, repetitive meals. The platform achieves this through:</p>
+            <ul>
+                <li><strong>Core Nutrition Principles (<code>index.html</code>):</strong> Explains calorie density, protein leverage, and smart ingredient substitutions using whole grains, legumes, healthy fats, and high-protein dairy.</li>
+                <li><strong>Recipe &amp; Macro Explorer (<code>recipes.html</code>):</strong> Provides a filterable catalog of 18+ balanced recipes loaded from a local JSON file, accessible detail modals, and a persistent <em>Daily Macro Builder</em> powered by <code>localStorage</code>.</li>
+                <li><strong>Custom Meal Guide Request (<code>custom-plan.html</code>):</strong> Offers an accessible form where visitors submit their dietary preferences, schedule, and goals to generate a tailored summary via URL parameters.</li>
+            </ul>
+        </section>
+
+        <section id="scenarios">
+            <h2>3. Target Audience Scenarios</h2>
+            <ul>
+                <li><strong>Scenario 1:</strong> "How can I make high-protein, low-calorie meals that actually taste great without spending hours in the kitchen?"</li>
+                <li><strong>Scenario 2:</strong> "If I pick a breakfast, a main dish, and a protein dessert from the catalog, what will my total daily calories and protein grams be?"</li>
+                <li><strong>Scenario 3:</strong> "Where can I submit my dietary preferences and weekly schedule to get a customized nutrition outline?"</li>
+            </ul>
+        </section>
+
+        <section id="color-scheme">
+        <h2>4. Color Scheme</h2>
+        <p>This document exclusively uses the selected palette below, verified for WCAG AA contrast compliance:</p>
+        <div class="color-grid">
+            <article class="color-card primary-swatch">
+                <h3>Deep Sage Green</h3>
+                <p><code>#1B4332</code></p>
+                <p><strong>Usage:</strong> Main headers, primary buttons, navigation bar, and footer background (paired with <code>#FFFFFF</code> text).</p>
+            </article>
+            <article class="color-card accent-swatch">
+                <h3>Warm Terracotta</h3>
+                <p><code>#9E2A2B</code></p>
+                <p><strong>Usage:</strong> Macro badges, section borders, active filter states, and secondary call-to-action highlights.</p>
+            </article>
+            <article class="color-card bg-swatch">
+                <h3>Soft Cream</h3>
+                <p><code>#FAF7F2</code></p>
+                <p><strong>Usage:</strong> Primary page background to create a clean, organic editorial feel.</p>
+            </article>
+            <article class="color-card text-swatch">
+                <h3>Neutral Charcoal</h3>
+                <p><code>#1F2937</code></p>
+                <p><strong>Usage:</strong> Primary body text, recipe ingredients, and form labels.</p>
+            </article>
+        </div>
+        </section>
+
+        <section id="typography">
+        <h2>5. Typography</h2>
+            <div class="typo-sample">
+                <h3 class="font-heading-demo">Heading Font: Fraunces (Serif, 600/700)</h3>
+                <p><strong>Applied to:</strong> Page titles (<code>h1</code>), section headings (<code>h2</code>), and recipe card titles (<code>h3</code>) to convey culinary warmth and editorial credibility.</p>
+            </div>
+            <div class="typo-sample">
+                <p class="font-body-demo"><strong>Body &amp; UI Font: Plus Jakarta Sans (Sans-Serif, 400/500/700)</strong></p>
+                <p><strong>Applied to:</strong> Body paragraphs, navigation links, filter buttons, nutritional metrics, and form inputs for crisp readability across mobile and desktop viewports.</p>
+            </div>
+    </section>
+
+    <section id="wireframes">
+      <h2>6. Home Page Wireframes</h2>
+      <p>Black-and-white structural wireframes illustrating the responsive layout for <code>index.html</code> across small and large viewports:</p>
+      <div class="wireframe-grid">
+        <figure>
+          <img src="images/wireframe-mobile.webp" alt="Black and white mobile wireframe sketch of the Savor & Lean home page" width="320" height="560" loading="lazy">
+          <figcaption><strong>Small Viewport (Mobile):</strong> Single-column stacked layout with collapsible navigation, hero banner, and vertical principle cards.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/wireframe-desktop.webp" alt="Black and white desktop wireframe sketch of the Savor & Lean home page" width="600" height="450" loading="lazy">
+          <figcaption><strong>Large Viewport (Desktop/Tablet):</strong> Horizontal navigation bar, two-column split hero, and three-column grid for nutrition pillars.</figcaption>
+        </figure>
+      </div>
+    </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Savor &amp; Lean | WDD 231 Project Site Plan</p>
+    </footer>
+</body>
+</html>
