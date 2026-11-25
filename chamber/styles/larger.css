@@ -13,7 +13,11 @@
 
   nav a {
     border-top: none;
-    padding: 1rem 1.2rem;
+    padding: 1rem 0.85rem;
+  }
+
+  .site-title { 
+    white-space: nowrap; 
   }
 
   header {
