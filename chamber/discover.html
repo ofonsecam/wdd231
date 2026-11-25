@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funza Chamber of Commerce | Discover Funza</title>
+    <meta name="description" content="Discover Funza: demographics, economic highlights, and local points of interest promoted by the Funza Chamber of Commerce.">
+    <meta name="author" content="Oscar Fonseca">
+
+    <!-- favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- open graph --> 
+    <meta property="og:title" content="Discover | Funza Chamber of Commerce - Sabana Occidente">
+    <meta property="og:description" content="Discover Funza: demographics, economic highlights, and local points of interest promoted by the Funza Chamber of Commerce.">
+    <meta property="og:image" content="https://ofonsecam.github.io/wdd231/chamber/images/logo-chamber.webp">
+    <meta property="og:url" content="https://ofonsecam.github.io/wdd231/chamber/discover.html">
+    <meta property="og:type" content="website">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/discover.css">
+    
+    <!-- scripts -->
+    <script src="scripts/main.js" defer></script>
+    <script type="module" src="scripts/discover.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-box">
+                <img src="images/logo-chamber.webp" alt="Funza Chamber of Commerce Crest and Logo" width="44" height="44">
+                <span class="site-title">Funza Chamber of Commerce</span>
+            </div>
+            <button id="hamburger-btn" aria-label="Open navigation menu">&#9776;</button>
+        </div>
+        <nav id="primary-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="discover.html" class="active" aria-current="page">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="discover-main">
+        <h1>Discover Funza, Cundinamarca</h1>
+
+        <aside class="visit-banner" aria-live="polite">
+            <p id="visit-message"></p>
+            <button type="button" id="close-banner" aria-label="Close welcome message">&times;</button>
+        </aside>
+
+        <section class="demographics-panel" aria-labelledby="demo-heading">
+            <h2 id="demo-heading">Area Overview &amp; Demographics</h2>
+            <p>Located in the Sabana Occidente province just west of Bogotá, Funza is a dynamic commercial, agricultural, and logistics center.</p>
+            <ul class="stats-list">
+                <li><strong>Population:</strong> ~112,000 residents</li>
+                <li><strong>Elevation:</strong> 2,548 meters above sea level</li>
+                <li><strong>Key Industries:</strong> Logistics, Floriculture, Food Processing &amp; Retail</li>
+                <li><strong>Strategic Access:</strong> Direct connection to Calle 13 &amp; Autopista Medellín</li>
+            </ul>
+        </section>
+
+        <section aria-labelledby="places-heading">
+            <h2 id="places-heading" class="visually-hidden">Points of Interest</h2>
+            <div id="discover-grid" class="discover-grid"></div>
+        </section>
+
+        <dialog id="place-modal" class="place-modal">
+            <div class="modal-content">
+                <button type="button" id="close-modal" aria-label="Close modal">&times;</button>
+                <h3 id="modal-title"></h3>
+                <p id="modal-address"></p>
+                <p id="modal-description"></p>
+            </div>
+        </dialog>
+    </main>
+
+    <footer>
+        <div class="footer-info">
+            <h3>Funza Chamber of Commerce</h3>
+            <p>Parque Principal, Carrera 14 # 13-08</p>
+            <p>Funza, Cundinamarca, Colombia</p>
+            <p>info@camarafunza.org | +57 (601) 826-0000</p>
+        </div>
+        <div class="footer-dev">
+            <p>WDD 231 Class Project | Oscar Fonseca</p>
+            <p>&copy; <span id="current-year"></span> Funza Chamber of Commerce</p>
+            <p>Last modified: <span id="last-modified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>
