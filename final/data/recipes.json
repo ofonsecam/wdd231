@@ -1,0 +1,326 @@
+[
+  {
+    "id": "sl-01",
+    "name": "Smoky Lentil & Egg White Skillet",
+    "category": "Breakfast",
+    "calories": 340,
+    "protein": 32,
+    "prepTime": "15 mins",
+    "summary": "High-volume stovetop scramble combining spiced brown lentils, egg whites, and blistered cherry tomatoes.",
+    "ingredients": [
+      "180 g liquid egg whites",
+      "1 whole pasture-raised egg",
+      "100 g cooked brown lentils",
+      "80 g cherry tomatoes, halved",
+      "1 tsp smoked paprika and garlic powder",
+      "1 tsp extra-virgin olive oil"
+    ],
+    "instructions": "Heat olive oil in a non-stick skillet over medium heat. Blister cherry tomatoes for 3 minutes, add lentils and smoked paprika, then pour in egg whites and whole egg. Stir gently until softly set."
+  },
+  {
+    "id": "sl-02",
+    "name": "Cinnamon Chia & Soy Protein Oats",
+    "category": "Breakfast",
+    "calories": 385,
+    "protein": 34,
+    "prepTime": "10 mins",
+    "summary": "Creamy dairy-free rolled oats fortified with plant protein isolate, chia seeds, and toasted walnuts.",
+    "ingredients": [
+      "50 g rolled oats",
+      "30 g vanilla plant protein isolate",
+      "10 g chia seeds",
+      "220 ml unsweetened almond milk",
+      "10 g chopped walnuts",
+      "1/2 tsp Ceylon cinnamon"
+    ],
+    "instructions": "Simmer oats, chia seeds, cinnamon, and almond milk for 5 minutes until thick. Remove from heat, whisk in protein isolate until smooth, and top with walnuts."
+  },
+  {
+    "id": "sl-03",
+    "name": "Sourdough Turkey & Avocado Toast",
+    "category": "Breakfast",
+    "calories": 390,
+    "protein": 31,
+    "prepTime": "8 mins",
+    "summary": "Crisp artisanal sourdough layered with smashed avocado, lemon zest, and seared lean turkey breast.",
+    "ingredients": [
+      "1 slice (60 g) whole-grain sourdough bread",
+      "110 g sliced roasted turkey breast",
+      "45 g ripe avocado",
+      "15 g microgreens or arugula",
+      "1 tsp fresh lemon juice",
+      "Pinch of chili flakes and sea salt"
+    ],
+    "instructions": "Toast sourdough until golden. Mash avocado with lemon juice and salt, spread over toast, layer warm turkey slices on top, and garnish with greens and chili flakes."
+  },
+  {
+    "id": "sl-04",
+    "name": "Herbed Chickpea & Spinach Frittata",
+    "category": "Breakfast",
+    "calories": 325,
+    "protein": 29,
+    "prepTime": "18 mins",
+    "summary": "Pan-cooked Mediterranean skillet frittata packed with fresh spinach, roasted peppers, and chickpeas.",
+    "ingredients": [
+      "2 whole eggs",
+      "120 g liquid egg whites",
+      "70 g cooked chickpeas",
+      "50 g fresh baby spinach",
+      "40 g diced roasted red bell pepper",
+      "1 tbsp chopped fresh parsley"
+    ],
+    "instructions": "Sauté spinach and roasted peppers in a lightly oiled skillet until wilted. Fold in chickpeas, pour whisked eggs over top, cover with a lid, and cook on low heat for 8 minutes."
+  },
+  {
+    "id": "sl-05",
+    "name": "Savory Mushroom & Tofu Scramble",
+    "category": "Breakfast",
+    "calories": 310,
+    "protein": 28,
+    "prepTime": "14 mins",
+    "summary": "Umami-rich firm tofu crumbled with cremini mushrooms, nutritional yeast, and turmeric.",
+    "ingredients": [
+      "200 g extra-firm tofu, pressed and crumbled",
+      "90 g sliced cremini mushrooms",
+      "1 tbsp nutritional yeast",
+      "1/2 tsp turmeric and black salt",
+      "1 tsp avocado oil",
+      "2 scallions, thinly sliced"
+    ],
+    "instructions": "Brown mushrooms in avocado oil over medium-high heat. Add crumbled tofu, turmeric, and nutritional yeast, tossing for 6 minutes until golden. Finish with scallions."
+  },
+  {
+    "id": "sl-06",
+    "name": "Berry Almond Protein Smoothie Bowl",
+    "category": "Breakfast",
+    "calories": 360,
+    "protein": 33,
+    "prepTime": "7 mins",
+    "summary": "Thick blended mixed-berry base topped with pumpkin seeds and toasted oats for crunch.",
+    "ingredients": [
+      "140 g frozen mixed berries",
+      "35 g unflavored or vanilla protein powder",
+      "150 ml unsweetened soy milk",
+      "12 g pumpkin seeds",
+      "15 g toasted rolled oats",
+      "1/2 tsp pure vanilla extract"
+    ],
+    "instructions": "Blend frozen berries, protein powder, soy milk, and vanilla until thick and spoonable. Transfer to a bowl and top with pumpkin seeds and toasted oats."
+  },
+  {
+    "id": "sl-07",
+    "name": "Pan-Seared Herb Chicken & Quinoa Bowl",
+    "category": "Main Dish",
+    "calories": 465,
+    "protein": 46,
+    "prepTime": "22 mins",
+    "summary": "Juicy oregano-seared chicken breast served over fluffy quinoa with cucumber-tomato herb salad.",
+    "ingredients": [
+      "160 g skinless chicken breast",
+      "110 g cooked tricolor quinoa",
+      "100 g diced cucumber and tomato",
+      "1 tbsp red wine vinaigrette",
+      "1 tsp dried oregano and garlic powder",
+      "1 tsp olive oil"
+    ],
+    "instructions": "Season chicken with oregano, garlic, salt, and pepper. Pan-sear 5 minutes per side until cooked through. Slice over warm quinoa alongside dressed cucumber-tomato salad."
+  },
+  {
+    "id": "sl-08",
+    "name": "Garlic Lime Salmon & Asparagus",
+    "category": "Main Dish",
+    "calories": 480,
+    "protein": 41,
+    "prepTime": "18 mins",
+    "summary": "Crispy-skin Atlantic salmon fillet paired with blistered asparagus spears and roasted baby potatoes.",
+    "ingredients": [
+      "150 g wild-caught salmon fillet",
+      "130 g trimmed asparagus spears",
+      "100 g steamed baby potatoes, halved",
+      "1 tbsp fresh lime juice and zest",
+      "1 minced garlic clove",
+      "1 tsp olive oil"
+    ],
+    "instructions": "Sear salmon skin-side down in a hot skillet for 4 minutes, flip, and cook 3 more minutes with garlic and lime. Sauté asparagus and potatoes in the same pan until tender-crisp."
+  },
+  {
+    "id": "sl-09",
+    "name": "Lean Beef & Black Bean Fajita Skillet",
+    "category": "Main Dish",
+    "calories": 490,
+    "protein": 44,
+    "prepTime": "20 mins",
+    "summary": "High-fiber Tex-Mex skillet combining lean sirloin strips, black beans, and charred bell peppers.",
+    "ingredients": [
+      "140 g lean top sirloin, thinly sliced",
+      "90 g cooked black beans",
+      "120 g sliced bell peppers and red onion",
+      "1 tsp cumin and chili powder",
+      "30 g fresh pico de gallo",
+      "1 tsp avocado oil"
+    ],
+    "instructions": "Sear sirloin strips in avocado oil over high heat for 3 minutes. Add peppers, onions, and spices, cooking 4 minutes until charred. Fold in black beans and top with pico de gallo."
+  },
+  {
+    "id": "sl-10",
+    "name": "Mediterranean Tuna & White Bean Salad",
+    "category": "Main Dish",
+    "calories": 410,
+    "protein": 42,
+    "prepTime": "10 mins",
+    "summary": "No-cook pantry powerhouse tossing pole-caught tuna with creamy cannellini beans, capers, and herbs.",
+    "ingredients": [
+      "140 g canned light tuna in water, drained",
+      "100 g cooked cannellini beans",
+      "60 g mixed baby greens",
+      "1 tbsp capers and diced red onion",
+      "1 tbsp lemon-herb vinaigrette",
+      "Freshly cracked black pepper"
+    ],
+    "instructions": "Combine tuna, white beans, capers, and red onion in a bowl. Toss gently with lemon-herb vinaigrette and serve over a bed of baby greens."
+  },
+  {
+    "id": "sl-11",
+    "name": "Ginger Garlic Shrimp & Broccoli Stir-Fry",
+    "category": "Main Dish",
+    "calories": 395,
+    "protein": 39,
+    "prepTime": "16 mins",
+    "summary": "Wok-seared jumbo shrimp and crisp broccoli florets glazed in low-sodium tamari and fresh ginger.",
+    "ingredients": [
+      "170 g peeled raw shrimp",
+      "160 g broccoli florets",
+      "90 g cooked brown jasmine rice",
+      "1 tbsp low-sodium tamari",
+      "1 tsp grated fresh ginger and garlic",
+      "1 tsp toasted sesame oil"
+    ],
+    "instructions": "Stir-fry broccoli with a splash of water for 3 minutes. Add shrimp, ginger, and garlic; cook 3 minutes until pink. Toss with tamari and sesame oil, serving over brown rice."
+  },
+  {
+    "id": "sl-12",
+    "name": "Spiced Red Lentil & Turkey Ragù",
+    "category": "Main Dish",
+    "calories": 455,
+    "protein": 43,
+    "prepTime": "25 mins",
+    "summary": "Hearty slow-simmered tomato ragù blending extra-lean ground turkey and red lentils over zucchini ribbons.",
+    "ingredients": [
+      "130 g extra-lean ground turkey",
+      "60 g cooked red lentils",
+      "150 g crushed San Marzano tomatoes",
+      "180 g spiralized zucchini noodles",
+      "1 tsp Italian herbs and crushed garlic",
+      "1 tsp olive oil"
+    ],
+    "instructions": "Brown ground turkey with garlic and herbs. Stir in crushed tomatoes and red lentils, simmering 10 minutes. Serve hot over lightly sautéed zucchini noodles."
+  },
+  {
+    "id": "sl-13",
+    "name": "Dark Chocolate Avocado Protein Mousse",
+    "category": "Dessert & Snack",
+    "calories": 245,
+    "protein": 22,
+    "prepTime": "8 mins",
+    "summary": "Velvety dairy-free chocolate mousse whipped with ripe avocado, raw cacao, and chocolate protein.",
+    "ingredients": [
+      "60 g ripe avocado",
+      "25 g chocolate plant protein powder",
+      "1 tbsp unsweetened raw cacao powder",
+      "80 ml unsweetened almond milk",
+      "1 tsp pure maple syrup",
+      "Pinch of flaky sea salt"
+    ],
+    "instructions": "Blend avocado, protein powder, cacao, almond milk, maple syrup, and sea salt until completely silky. Chill for 15 minutes or serve immediately."
+  },
+  {
+    "id": "sl-14",
+    "name": "Roasted Cinnamon Spiced Chickpeas",
+    "category": "Dessert & Snack",
+    "calories": 210,
+    "protein": 14,
+    "prepTime": "20 mins",
+    "summary": "Crunchy skillet-toasted chickpeas dusted with warm cinnamon, nutmeg, and a touch of coconut sugar.",
+    "ingredients": [
+      "150 g cooked chickpeas, patted dry",
+      "1 tsp coconut oil",
+      "1 tsp Ceylon cinnamon",
+      "1 tsp coconut sugar",
+      "1/4 tsp ground nutmeg",
+      "Pinch of sea salt"
+    ],
+    "instructions": "Toast dry chickpeas in a skillet with coconut oil over medium heat for 10 minutes until crisp. Remove from heat and toss with cinnamon, nutmeg, coconut sugar, and salt."
+  },
+  {
+    "id": "sl-15",
+    "name": "Peanut Butter Cacao Protein Truffles",
+    "category": "Dessert & Snack",
+    "calories": 230,
+    "protein": 20,
+    "prepTime": "12 mins",
+    "summary": "No-bake bite-sized energy truffles rolled in crushed almonds and dark cocoa powder.",
+    "ingredients": [
+      "25 g vanilla or chocolate protein powder",
+      "20 g natural powdered peanut butter",
+      "15 g oat flour",
+      "35 ml unsweetened soy milk",
+      "10 g finely chopped almonds",
+      "1 tsp raw cacao powder"
+    ],
+    "instructions": "Mix protein powder, powdered peanut butter, oat flour, and soy milk into a firm dough. Roll into three bite-sized truffles and coat in chopped almonds and cacao."
+  },
+  {
+    "id": "sl-16",
+    "name": "Matcha Chia & Almond Crunch Pudding",
+    "category": "Dessert & Snack",
+    "calories": 225,
+    "protein": 19,
+    "prepTime": "10 mins",
+    "summary": "Antioxidant-rich culinary matcha pudding thickened with chia seeds and topped with sliced almonds.",
+    "ingredients": [
+      "20 g chia seeds",
+      "20 g unflavored plant protein",
+      "180 ml unsweetened almond milk",
+      "1 tsp ceremonial matcha powder",
+      "10 g sliced toasted almonds",
+      "1/2 tsp vanilla extract"
+    ],
+    "instructions": "Whisk matcha, protein powder, vanilla, and almond milk until lump-free. Stir in chia seeds, let thicken for 15 minutes, and garnish with sliced almonds."
+  },
+  {
+    "id": "sl-17",
+    "name": "Skillet Caramelized Apple & Walnut Crisp",
+    "category": "Dessert & Snack",
+    "calories": 250,
+    "protein": 16,
+    "prepTime": "15 mins",
+    "summary": "Warm cinnamon-sautéed green apple slices topped with toasted oat-walnut crumble and protein drizzle.",
+    "ingredients": [
+      "120 g diced Granny Smith apple",
+      "15 g rolled oats",
+      "12 g chopped walnuts",
+      "15 g vanilla protein mixed with 2 tbsp water",
+      "1/2 tsp cinnamon",
+      "1/2 tsp coconut oil"
+    ],
+    "instructions": "Sauté apple slices with cinnamon and coconut oil until tender. Toast oats and walnuts in a dry pan for 3 minutes, layer over apples, and drizzle with protein glaze."
+  },
+  {
+    "id": "sl-18",
+    "name": "Lemon Poppy Seed Protein Bites",
+    "category": "Dessert & Snack",
+    "calories": 220,
+    "protein": 21,
+    "prepTime": "10 mins",
+    "summary": "Bright citrus-infused protein bites made with almond flour, fresh lemon zest, and poppy seeds.",
+    "ingredients": [
+      "25 g vanilla protein powder",
+      "20 g blanched almond flour",
+      "1 tsp poppy seeds",
+      "Zest and 1 tbsp juice of fresh lemon",
+      "25 ml unsweetened almond milk",
+      "1 tsp pure maple syrup"
+    ],
+    "instructions": "Stir all ingredients together until a pliable dough forms. Portion into three rounds and refrigerate for 10 minutes before serving."
+  }
+]

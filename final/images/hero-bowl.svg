@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" width="480" height="360" role="img" aria-labelledby="hero-svg-title hero-svg-desc">
+  <title id="hero-svg-title">Balanced High-Protein Whole Food Bowl</title>
+  <desc id="hero-svg-desc">Editorial vector illustration of a whole-food meal bowl with seared protein, leafy greens, lentils, and avocado alongside macro balance indicators.</desc>
+  <rect width="480" height="360" rx="20" fill="#EFECE4" />
+  <circle cx="240" cy="185" r="132" fill="#FFFFFF" stroke="#1B4332" stroke-width="4" />
+  <circle cx="240" cy="185" r="114" fill="#FAF7F2" />
+  
+  <path d="M148 175c-8-28 18-56 46-48 16 4 24 22 14 38-12 18-48 24-60 10z" fill="#2D6A4F" />
+  <path d="M164 218c-16-18-8-48 16-54 18-4 32 10 26 28-6 20-30 38-42 26z" fill="#1B4332" />
+  
+  <rect x="235" y="105" width="76" height="24" rx="12" transform="rotate(14 235 105)" fill="#9E2A2B" />
+  <rect x="242" y="136" width="82" height="24" rx="12" transform="rotate(14 242 136)" fill="#B53839" />
+  <rect x="232" y="167" width="74" height="24" rx="12" transform="rotate(14 232 167)" fill="#9E2A2B" />
+  
+  <circle cx="212" cy="235" r="9" fill="#C97B36" />
+  <circle cx="234" cy="246" r="10" fill="#B06526" />
+  <circle cx="256" cy="232" r="9" fill="#C97B36" />
+  <circle cx="224" cy="216" r="8" fill="#D98F4E" />
+  <circle cx="248" cy="212" r="8" fill="#B06526" />
+  <circle cx="274" cy="244" r="9" fill="#D98F4E" />
+  
+  <circle cx="296" cy="214" r="13" fill="#9E2A2B" />
+  <circle cx="292" cy="210" r="3" fill="#FFFFFF" opacity="0.7" />
+  <circle cx="318" cy="196" r="11" fill="#9E2A2B" />
+  <circle cx="314" cy="192" r="2.5" fill="#FFFFFF" opacity="0.7" />
+  
+  <rect x="24" y="24" width="136" height="44" rx="10" fill="#1B4332" />
+  <text x="92" y="51" font-family="Plus Jakarta Sans, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">42g Protein / Meal</text>
+  <rect x="316" y="292" width="140" height="44" rx="10" fill="#9E2A2B" />
+  <text x="386" y="319" font-family="Plus Jakarta Sans, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">&lt; 500 kcal Target</text>
+</svg>
